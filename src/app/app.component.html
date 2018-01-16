@@ -1,0 +1,30 @@
+<ng-container>
+    <mat-toolbar class="future-fe-header">
+        <mat-toolbar-row>
+            <mat-icon class="future-fe-icon" (click)="sidenav.toggle()">reorder</mat-icon>
+            <span><img src="assets/images/logo.jpg" class="future-fe-logo" /> </span>
+            <span class="future-fe-spacer"></span>
+            <mat-icon class="future-fe-icon">search</mat-icon>
+            <mat-icon class="future-fe-icon">mail</mat-icon>
+            <mat-icon class="future-fe-icon">person pin</mat-icon>
+            <mat-icon class="future-fe-icon" (click)="sidenavend.toggle()">reorder</mat-icon>
+        </mat-toolbar-row>
+    </mat-toolbar>
+
+    <mat-sidenav-container class="future-fe-container">
+        <mat-sidenav #sidenav mode="side" opened="true" class="future-fe-sidenav" [fixedInViewport]="false" [fixedTopGap]="0" [fixedBottomGap]="0">
+            Sidenav
+        </mat-sidenav>
+
+        <mat-sidenav #sidenavend mode="side" opened="true" position="end" class="future-fe-sidenav" [fixedInViewport]="false" [fixedTopGap]="0" [fixedBottomGap]="0">
+            Sidenav
+        </mat-sidenav>
+
+        <mat-sidenav-content>
+            <h3>Content Title</h3>
+            <p>Content</p>
+        </mat-sidenav-content>
+    </mat-sidenav-container>
+
+    <mat-toolbar class="future-fe-footer">Footer</mat-toolbar>
+</ng-container>

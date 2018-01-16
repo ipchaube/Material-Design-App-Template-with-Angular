@@ -1,0 +1,47 @@
+.future-fe-container {
+    position: absolute;
+    top: 64px;
+    bottom: 64px;
+    left: 0;
+    right: 0;
+}
+
+.future-fe-sidenav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    background: rgba(255, 0, 0, 0.5);
+}
+
+.future-fe-header {
+    position: fixed;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .26);
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.future-fe-footer {
+    position: fixed;
+    border-top: 1px solid #d0d0d0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.future-fe-spacer {
+    flex: 1 1 auto;
+}
+
+.future-fe-logo {
+    height: 60px;
+}
+
+.future-fe-icon {
+    padding: 10px;
+}
+
+.mat-sidenav-content {
+    padding: 0px 10px 0px 10px;
+}
